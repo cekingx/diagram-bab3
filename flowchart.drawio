@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T05:54:01.133Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ABizQsrF1I71Flyi4tyI" version="14.4.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-18T06:07:29.474Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="SuWPf0sqSaUtrxTVUxUQ" version="14.4.7" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="login">
     <mxGraphModel dx="1054" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,6 +175,60 @@
         </mxCell>
         <mxCell id="Y5bfeVh9V_7leBVaCGXS-10" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="PXLnuG3mkBYyr4n6KwBB-1">
           <mxGeometry x="350" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-YGDMJMfJ2T2aebIFKW_" name="voter-register-to-election">
+    <mxGraphModel dx="1054" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Mwt5COxjQra6mZKLzjHA-0" />
+        <mxCell id="Mwt5COxjQra6mZKLzjHA-1" parent="Mwt5COxjQra6mZKLzjHA-0" />
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="Mwt5COxjQra6mZKLzjHA-1" source="pE9dSFfgIOo7q_d1g_-d-2" target="k8p7S7nv3FZ6Ar4X1KjU-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pE9dSFfgIOo7q_d1g_-d-2" value="Start" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="Mwt5COxjQra6mZKLzjHA-1">
+          <mxGeometry x="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="Mwt5COxjQra6mZKLzjHA-1" source="k8p7S7nv3FZ6Ar4X1KjU-0" target="WRLbt8DxfiSPxLus6zmw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8p7S7nv3FZ6Ar4X1KjU-0" value="Pilih election" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.125;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="Mwt5COxjQra6mZKLzjHA-1">
+          <mxGeometry x="340" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-4" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=#ffffff;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="Mwt5COxjQra6mZKLzjHA-1" source="WRLbt8DxfiSPxLus6zmw-1" target="WRLbt8DxfiSPxLus6zmw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-8" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=#ffffff;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="Mwt5COxjQra6mZKLzjHA-1" source="WRLbt8DxfiSPxLus6zmw-1" target="WRLbt8DxfiSPxLus6zmw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-1" value="Terverifikasi oleh&lt;br&gt;election authority?" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="Mwt5COxjQra6mZKLzjHA-1">
+          <mxGeometry x="330" y="160" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="Mwt5COxjQra6mZKLzjHA-1" source="WRLbt8DxfiSPxLus6zmw-3" target="WRLbt8DxfiSPxLus6zmw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-3" value="Verifikasi voter" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;strokeWidth=1;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="Mwt5COxjQra6mZKLzjHA-1">
+          <mxGeometry x="350" y="280" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="Mwt5COxjQra6mZKLzjHA-1" source="WRLbt8DxfiSPxLus6zmw-5" target="WRLbt8DxfiSPxLus6zmw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-5" value="Voter memiliki hak&lt;br&gt;suara di election" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.1607142857142857;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="Mwt5COxjQra6mZKLzjHA-1">
+          <mxGeometry x="330" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="Mwt5COxjQra6mZKLzjHA-1" source="WRLbt8DxfiSPxLus6zmw-7" target="WRLbt8DxfiSPxLus6zmw-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-7" value="Voter tidak memiliki&lt;br&gt;hak suara" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.11538461538461539;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="Mwt5COxjQra6mZKLzjHA-1">
+          <mxGeometry x="520" y="170" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WRLbt8DxfiSPxLus6zmw-9" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="Mwt5COxjQra6mZKLzjHA-1">
+          <mxGeometry x="350" y="500" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
