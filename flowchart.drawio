@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T06:43:46.076Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OZjuY0VQXVPZIun60q8g" version="14.4.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-18T06:53:11.648Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2cKReNut40D8l2NyFg8t" version="14.4.7" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="login">
     <mxGraphModel dx="1054" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,6 +276,53 @@
         </mxCell>
         <mxCell id="WRLbt8DxfiSPxLus6zmw-9" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="Mwt5COxjQra6mZKLzjHA-1">
           <mxGeometry x="350" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6KPAF4bK5VL0YBJbOq5A" name="voter-vote">
+    <mxGraphModel dx="1506" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="aOF4jAqoz3mTs8wp6q03-0" />
+        <mxCell id="aOF4jAqoz3mTs8wp6q03-1" parent="aOF4jAqoz3mTs8wp6q03-0" />
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="aOF4jAqoz3mTs8wp6q03-1" source="1JsqNYJrCIrSMayMCd4B-2" target="1JsqNYJrCIrSMayMCd4B-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-2" value="Start" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="aOF4jAqoz3mTs8wp6q03-1">
+          <mxGeometry x="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="aOF4jAqoz3mTs8wp6q03-1" source="1JsqNYJrCIrSMayMCd4B-3" target="1JsqNYJrCIrSMayMCd4B-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-3" value="Pilih election" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.125;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="aOF4jAqoz3mTs8wp6q03-1">
+          <mxGeometry x="340" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="aOF4jAqoz3mTs8wp6q03-1" source="1JsqNYJrCIrSMayMCd4B-5" target="1JsqNYJrCIrSMayMCd4B-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-5" value="Pilih candidate" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.125;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="aOF4jAqoz3mTs8wp6q03-1">
+          <mxGeometry x="340" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="aOF4jAqoz3mTs8wp6q03-1" source="1JsqNYJrCIrSMayMCd4B-7" target="1JsqNYJrCIrSMayMCd4B-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-7" value="Pengiriman ether dari super admin ke wallet address voter" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;strokeWidth=1;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="aOF4jAqoz3mTs8wp6q03-1">
+          <mxGeometry x="320" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="aOF4jAqoz3mTs8wp6q03-1" source="1JsqNYJrCIrSMayMCd4B-9" target="1JsqNYJrCIrSMayMCd4B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-9" value="Pemanggilan fungsi vote pada smart contract oleh voter" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;strokeWidth=1;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="aOF4jAqoz3mTs8wp6q03-1">
+          <mxGeometry x="320" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="aOF4jAqoz3mTs8wp6q03-1" source="1JsqNYJrCIrSMayMCd4B-11" target="1JsqNYJrCIrSMayMCd4B-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-11" value="Suara voter sudah&lt;br&gt;direkam di&lt;br&gt;blockchain" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.140625;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="aOF4jAqoz3mTs8wp6q03-1">
+          <mxGeometry x="320" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1JsqNYJrCIrSMayMCd4B-13" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="aOF4jAqoz3mTs8wp6q03-1">
+          <mxGeometry x="350" y="584.5" width="100" height="45.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
