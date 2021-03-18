@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T05:47:28.907Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="bP2JEc3Adfp6SGxmtOWU" version="14.4.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-18T05:54:01.133Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ABizQsrF1I71Flyi4tyI" version="14.4.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="login">
     <mxGraphModel dx="1054" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,6 +132,49 @@
         </mxCell>
         <mxCell id="wRAH97HWcBKKK4Xmf5Ck-4" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="L_kDG-t8zdZ7WhSsaVpq-1">
           <mxGeometry x="350" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TH83_Q8cF1tH8GIB_s2U" name="add-candidate">
+    <mxGraphModel dx="1054" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="PXLnuG3mkBYyr4n6KwBB-0" />
+        <mxCell id="PXLnuG3mkBYyr4n6KwBB-1" parent="PXLnuG3mkBYyr4n6KwBB-0" />
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="PXLnuG3mkBYyr4n6KwBB-1" source="Y5bfeVh9V_7leBVaCGXS-2" target="Y5bfeVh9V_7leBVaCGXS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-2" value="Start" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="PXLnuG3mkBYyr4n6KwBB-1">
+          <mxGeometry x="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="PXLnuG3mkBYyr4n6KwBB-1" source="Y5bfeVh9V_7leBVaCGXS-3" target="Y5bfeVh9V_7leBVaCGXS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-3" value="Pilih election" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.15000000000000002;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="PXLnuG3mkBYyr4n6KwBB-1">
+          <mxGeometry x="350" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=none;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="PXLnuG3mkBYyr4n6KwBB-1" source="Y5bfeVh9V_7leBVaCGXS-5" target="Y5bfeVh9V_7leBVaCGXS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-5" value="Input nama, visi,&lt;br&gt;misi dan&lt;br&gt;pengalaman" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;size=0.10714285714285714;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="PXLnuG3mkBYyr4n6KwBB-1">
+          <mxGeometry x="330" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=#ffffff;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="PXLnuG3mkBYyr4n6KwBB-1" source="Y5bfeVh9V_7leBVaCGXS-7" target="Y5bfeVh9V_7leBVaCGXS-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="320" />
+              <mxPoint x="270" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=#ffffff;endArrow=block;endFill=0;endSize=8;strokeWidth=1;" edge="1" parent="PXLnuG3mkBYyr4n6KwBB-1" source="Y5bfeVh9V_7leBVaCGXS-7" target="Y5bfeVh9V_7leBVaCGXS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-7" value="Input lagi?" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="PXLnuG3mkBYyr4n6KwBB-1">
+          <mxGeometry x="350" y="280" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y5bfeVh9V_7leBVaCGXS-10" value="End" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=0;endArrow=block;endFill=0;endSize=8;fontSize=11;" vertex="1" parent="PXLnuG3mkBYyr4n6KwBB-1">
+          <mxGeometry x="350" y="400" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
